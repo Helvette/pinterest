@@ -1,0 +1,246 @@
+body {
+	margin-top: 0;
+	margin-left: 0;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	background-color: white;
+}
+
+#menu {
+	margin-left: 0;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #EFEFEF;
+}
+
+ul {
+	display: table;
+	margin: auto;
+	overflow: auto;
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	float: left;
+	/*line-height: 40px;*/
+}
+
+#pint {
+	color: white;
+	background-color: #BD081C;
+	text-align: center;
+	font-size: 25px;
+	line-height: 40px;
+	width: 40px;
+	margin: 0 14px;
+	border-radius: 50%;
+}
+
+#barra {
+	padding: 10px;
+	margin: 0 16px;
+	border-radius: 5px;
+	background-color: #EFEFEF;
+}
+
+.fa-search {
+	margin-left: 40px;
+}
+
+input[type=text] {
+	border: none;
+	background-color: transparent;
+	color: #757575;
+	width: 718px;
+	height: 20px;
+	font-size: 18px;
+}
+
+
+input[type=text]:focus {
+	outline: none;
+	color: black;
+}
+
+#allPins {
+	margin-left: 15px;
+	font-weight: bold;
+	font-size: 16px;
+	padding-right: 30px;
+}
+
+li div {
+	float: left;
+}
+
+.icons {
+	padding: 0 5px;
+	font-size: 21px;
+	width: 42.6px;
+	line-height: 42.6px;
+	text-align: center;
+}
+
+a {
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+	color: #B5B5B5;
+}
+
+#submenu {
+	display: table;
+	margin: auto;
+	clear: left;
+}
+
+p {
+	float: left;
+	margin-top: 10px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	background-color: #903338;
+	border-radius: 5px;
+	line-height: 60px;
+	color: white;
+	font-weight: 900;
+}
+
+#imagenes {
+	float: left;
+	margin: 145px 40px 145px 80px;
+
+	/*background-color: black; */
+}
+
+.elemento {
+	display: inline-block;
+}
+img {
+	max-width: 270px;
+	border-radius: 10px;
+	margin-right: 20px;
+	margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+img:hover {
+	cursor: pointer;
+}
+
+#submenu p:nth-child(1),  #submenu p:nth-child(4), #submenu p:nth-child(8) {
+	background-color: #903338;
+}
+
+#submenu p:nth-child(2), #submenu p:nth-child(6) {
+	background-color: #EFDFB2;
+}
+
+#submenu p:nth-child(3), #submenu p:nth-child(7) {
+	background-color: #272624;
+}
+
+
+#submenu p:nth-child(5) {
+	background-color: #4B745D;
+}
+
+/*
+
+#4B745D
+#EFDFB2
+#272624
+#9F383D
+#FA8150
+#999881
+#903338
+
+
+
+
+
+#contenedor {
+	width: 100%;
+	height: 150px;
+	background-color: green;
+	position: fixed;
+	text-align: center;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+#menu {
+	padding-bottom: 20px;
+	border-bottom: 1px solid grey;
+}
+
+input[type=text] {
+	border: none;
+	background-color: #EFEFEF;
+	color: #757575;
+	width: 720px;
+	height: 40px;
+	font-size: 18px;
+}
+
+
+input[type=text]:focus {
+	outline: none;
+	color: black;
+}
+
+p {
+	float: left;
+	margin-right: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	height: 60px;
+	background-color: red;
+	border-radius: 5px;
+}
+
+
+#submenu {
+	display:table;
+	margin: auto;
+}
+
+/* #pinterest {
+	color: white;
+	background-color: red;
+	border-radius: 50%;
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+} */
+
+
+/* 
+
+
+div:not(#contenedor) {
+	border: 0;
+	background-color: green;
+	width: 300px;
+	height: 200px;
+	border-radius: 30%;
+}
+
+
+#contenedor {
+	position: fixed;
+}
+
+*/
