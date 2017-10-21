@@ -113,12 +113,17 @@ p {
 }
 
 #imagenes {
-	float: left;
-	margin: 145px 40px 145px 80px;
+
+	column-count: 4;
+    column-gap: 1em;
+    padding: 145px 40px 145px 80px;
+
 }
 
 .elemento {
 	display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
 }
 img {
 	max-width: 270px;
